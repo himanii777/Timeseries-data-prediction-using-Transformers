@@ -9,7 +9,7 @@ import math
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import mean_squared_error
 
-data= pd.read_csv('trafficdata.csv', header=None) #change this to your situation
+# data= pd.read_csv('trafficdata.csv', header=None)
 
 #We gotta slice the data as in a typical time series prediction task
 
